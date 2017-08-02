@@ -8,7 +8,7 @@
         <style>
             #papel{
             position: relative;
-          background-color:burlywood;  
+          background-color:skyblue;  
             width: 900px;
             height: 500px;
             
@@ -17,8 +17,8 @@
             #casa{
              background-color:red;
               
-             width: 600px;
-             height: 400px;
+             width: 500px;
+             height:400px;
              position: absolute;
            background-size: cover;
           bottom: 0;
@@ -31,6 +31,7 @@
              height: 300px;
              position: absolute;
                 bottom: 0;
+            background-image: url(texturas_26640.jpg)
             
             }
             #tejado{
@@ -40,29 +41,88 @@
              height: 100px;
              position: absolute;
                 bottom:300;
+            background-image: url(tejado.jpg);
             
             }
     
             #puerta{
-                 background-color:maroon;
-              
-             width: 100px;
+             width: 150px;
              height: 150px;
              position: absolute;
                 bottom: 0;
                 left: 250px;
+                background-image: url(puerta%20calle.jpg);
+                background-size: cover;
+                background-color: transparent;
             
             }
             
-          #ventana1{
-                 background-color:aliceblue;
-             width: 50px;
-             height: 50px;
+          .ventana1{
+           background-color:transparent;
+             width: 90px;
+             height: 90px;
              position:absolute;
-        
-              
-             
+              top:22px;
+              left: 150px;
+            background-size: cover;
+            background-image: url(ventana%20madera.png);
+               
+            
             }
+            .imagen1{
+            background-image: url(yoga.png);
+                width: 90px;
+                height: 90px;
+                background-size: cover;
+                position: absolute;
+                top:22px;
+                left: 155px;
+                
+            }
+            
+        .ventana2{
+        background-color:transparent;
+              width: 90px;
+              height: 90px;
+             position:absolute;
+              top:22px;
+              left: 350px;
+            background-size: cover;
+            background-image: url(ventana%20madera.png);
+           
+            }
+            .imagen2{
+            background-image: url(ni%C3%B1a.png);
+            width:90px;
+            height: 90px;
+            background-size: cover;
+            position: absolute;
+                top:22px;
+                left:350px;
+            }
+            
+            .chimenea{
+                  background-image:url(chimenea-icono.png);
+        
+                width: 80px;
+                height: 100px;
+               position: absolute;
+                bottom:70px;
+             background-size: cover;
+            
+            
+            }
+            .humo{
+            background-image: url(humo.png);
+               width: 100px;
+                height: 100px;
+            background-size: cover;
+                position: absolute;
+                bottom:50px;
+                left:0px;
+                
+            }
+           
         
         </style>
 	</head>
@@ -74,8 +134,11 @@
     
     <div id="fachada">
          <div id="puerta"></div>
+        <div class="imagen1"></div>
          <div class="ventana1"></div>
+         <div class="imagen2"></div>
          <div class="ventana2"></div>
+       
          
          
          </div>
